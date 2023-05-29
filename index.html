@@ -8,6 +8,8 @@
 
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" media="screen and (max-width: 1024px)" href="mobile.css">
+
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
 
@@ -16,7 +18,7 @@
     <title>Dhruvesh-Gangapuram</title>
 </head>
 
-<body class="overflow-x-hidden">
+<body class="bg-[#4e54c8] lg:overflow-x-hidden">
     <div class="w-full h-screen absolute z-[-1111]">
         <div class="area">
             <ul class="circles">
@@ -34,15 +36,23 @@
         </div>
     </div>
 
-    <div class="absolute right-10 top-10 text-white w-min h-auto flex justify-center items-center cursor-default z-20">
+    <div class="hidden absolute right-10 top-10 text-white w-min h-auto lg:flex justify-center items-center cursor-default z-20">
         <img src="menu-button-of-three-horizontal-lines (1).png" alt="menu" class="absolute -z-10 h-10 w-10">
         <div class="w-32 h-full flex justify-center items-center" id="menu_btn">
             <h1 id="menu_circle">enu · Menu · Menu · Menu · Menu · M</h1>
         </div>
     </div>
 
-    <div class="absolute h-screen bg-[#575dc9] w-1/2 left-full z-10 duration-[2s] " id="menuBg_right"></div>
-    <div class="absolute h-screen bg-[#575dc9] w-1/2 left-[-50%] z-10 duration-[2s]" id="menuBg_left"></div>
+    <!-- * mobile menu -->
+    <div class=" h-screen w-full flex justify-center flex-col items-center lg:hidden">
+
+        <h1 class="text-3xl text-white">Under Construction</h1>
+        <p class="text-white text-center">Please visit this website on 1024+ px resolution screen.</p>
+        <p class="text-white text-center">Sorry for the trouble!!</p>
+    </div>
+
+    <div class="hidden lg:block absolute h-screen bg-[#575dc9] w-1/2 left-full z-10 duration-[2s] " id="menuBg_right"></div>
+    <div class="hidden lg:block absolute h-screen bg-[#575dc9] w-1/2 left-[-50%] z-10 duration-[2s]" id="menuBg_left"></div>
 
     <div class="absolute z-10 flex justify-center items-center flex-col opacity-0 h-screen w-full text-white text-7xl font-bold "
         id="menuContent">
