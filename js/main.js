@@ -8,7 +8,7 @@ var menuContent = document.getElementById("menuContent");
 var home = document.getElementById("Home");
 var about = document.getElementById("About");
 var code = document.getElementById("Code");
-var design = document.getElementById("Design");
+var design = document.getElementById("UI Design");
 var contact = document.getElementById("Contact");
 
 var rightClick = document.getElementById("rightClick");
