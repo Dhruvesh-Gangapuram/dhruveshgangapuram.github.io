@@ -201,6 +201,13 @@ body {
   }
 }
 
+.Code .clouds{
+  top: 5%;
+}
+
+.Contact .clouds{
+  top: -30%;
+}
 .me {
   position: absolute;
   height: 100%;
