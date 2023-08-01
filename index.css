@@ -514,6 +514,9 @@ body {
 }
 
 @media (max-width: 540px) {
+  .Home{
+    height: 90vh;
+  }
   .name .logo {
     height: 20%;
   }
