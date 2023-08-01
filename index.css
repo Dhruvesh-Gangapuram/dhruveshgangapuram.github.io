@@ -528,14 +528,27 @@ body {
     height: 90vh;
   }
   .name .logo {
-    height: 20%;
+    height: 15%;
   }
 
   .clouds2 {
     top: 30%;
     height: 20%;
+    /* top: 90%; */
   }
-
+  .clouds{
+    height: 20%;
+    top: 86%;
+  }
+  .Code .clouds{
+    top: 8%;
+  }
+  .UI_Design .clouds{
+    top: -10%;
+  }
+  .Contact .clouds{
+    top: 10%;
+  }
   .mountain1 {
     top: 80%;
     height: 20%;
@@ -561,7 +574,7 @@ body {
 
   .me {
     width: 100%;
-    height: 40%;
+    height: 50%;
   }
 
   .rightSide {
